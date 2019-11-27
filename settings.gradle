@@ -1,0 +1,5 @@
+rootProject.name = 'Fast2Prov'
+include 'resources'
+include 'main:resources'
+findProject(':main:resources')?.name = 'resources'
+
